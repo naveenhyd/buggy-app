@@ -32,4 +32,11 @@ class MathTest extends \PHPUnit_Framework_TestCase {
         $this->assertEquals($sum, $this->math->Sum($a, $b));
     }
 
+    /**
+     * @expectedException InvalidArgumentException
+     */
+    public function testAddStrings() {
+        $this->math->Sum('a', 'b');
+    }
+
 }
