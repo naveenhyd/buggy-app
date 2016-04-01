@@ -1,2 +1,12 @@
 {
+    "name": "BuggyApp",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Naveen"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    }
 }
