@@ -22,6 +22,9 @@ class Math {
      * @return int
      */
     public function Sum($a, $b) {
+        if (!is_numeric($a) || !is_numeric($b)) {
+            throw new \InvalidArgumentException;
+        }
         return $a + $b;
     }
 
