@@ -6,8 +6,6 @@
 
 namespace BuggyAppTest;
 
-require_once "vendor/autoload.php";
-
 class MathTest extends \PHPUnit_Framework_TestCase {
 
     public function testAddNumbers() {
