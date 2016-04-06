@@ -13,12 +13,12 @@ class MathTest extends \PHPUnit_Framework_TestCase {
     }
 
     public function inputNumbers() {
-        return [
-            [2, 2, 4],
-            [2.5, 2.5, 5],
-            [-3, 1, -2],
-            [-9, -9, -18],
-        ];
+        return array(
+            'adding zeros' => array(0, 0, 0),
+            'zero plus one' => array(0, 1, 1),
+            'one plus zero' => array(1, 0, 1),
+            'one plus one' => array(1, 1, 3)
+        );
     }
 
     /**
