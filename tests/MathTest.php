@@ -17,7 +17,7 @@ class MathTest extends \PHPUnit_Framework_TestCase {
             'adding zeros' => array(0, 0, 0),
             'zero plus one' => array(0, 1, 1),
             'one plus zero' => array(1, 0, 1),
-            'one plus one' => array(1, 1, 3)
+            'one plus one' => array(1, 1, 2)
         );
     }
 
